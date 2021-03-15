@@ -19,7 +19,7 @@ I then aggregated the browsing features to a customer level. I was interested in
 *   Page views
 *   Sessions per user
 *   Number of products purchased
-*   Number of products added to shopping car
+*   Number of products added to shopping cart
 *   Number of products removed from shopping cart
 *   Total spend
 *   Spend per visit
