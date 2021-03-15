@@ -25,7 +25,7 @@ I then aggregated the browsing features to a customer level. I was interested in
 *   Spend per visit
 *   Total shopping cart actions per visit
 
-I also compiled brand features but soon realized that there are many over 50% of the rows for the brands column are null, so this data would not be sufficient features to apply to the entire customer base.
+I also compiled brand features but soon realized that there are many over 50% of the rows for the brands column are null, so this data would not be sufficient for the entire customer base.
 
 I noticed the there were a lot of null values in the product and brand columns, so I refrained from leveraging these as part of the features.
 
@@ -37,9 +37,9 @@ I fed the features dataset into the K-Means model with 50,000 rows of data. I ra
 Since a lot of customers were being classified within one segment, I decided to run the model through by assigning components using PCA.
 
 ## K-Means - using PCA
-I first assigned components using PCA. I fed the features into the PCA package and generated a variance plot to see how much of the variance is explained with each additional component. This showed that 3 was the sweet spot (~80% of the variance explaned).
+I first assigned components using PCA. I fed the features into the PCA package and generated a variance plot to see how much of the variance is explained with each additional component. This showed that 3 components was optimal (~80% of the variance explained).
 
-I then fed the scored PCA dataset into k-means and repeated the process from the first attempt. This time, I chose to create 4 clusters. The majority of customers were being grouped into one segment, but the spending behaviour varied quite a bit amongst the groups. For instance, Segment 3 appear to browse through the website more frequently, but Segment 2 makes more purchases. In a business context, we could classify Segment 3 as window shoppers and Segment 2 as high spenders.
+I then fed the scored PCA dataset into k-means and repeated the process from the first attempt. This time, I chose to create 4 clusters. The majority of customers were being grouped into one segment, but the spending behaviour varied quite a bit amongst the groups. For instance, Segment 3 appears to browse through the website more frequently, but Segment 2 makes more purchases. In a business context, we could classify Segment 3 as window shoppers and Segment 2 as high spenders.
 
 ## Model Results and Next Steps
 Looking at the segmentation results, it's clear that a lot of customers are being grouped into a single segment. My hypothesis around this is that the features used in this dataset were not enough to clearly isolate the distinctive groups of customers (particularly within the larger segment). Ideally, I would include a variety of attributes like demographics and types of products purchased. These additional features might help distinguish the groups within the larger segments further.
