@@ -41,7 +41,7 @@ I first assigned components using PCA. I fed the features into the PCA package a
 
 I then fed the scored PCA dataset into k-means and repeated the process from the first attempt. This time, I chose to create 4 clusters. The majority of customers were being grouped into one segment, but the spending behaviour varied quite a bit amongst the groups. For instance, Segment 3 appear to browse through the website more frequently, but Segment 2 makes more purchases. In a business context, we could classify Segment 3 as window shoppers and Segment 2 as high spenders.
 
-## Model Results and Conclusion
+## Model Results and Next Steps
 Looking at the segmentation results, it's clear that a lot of customers are being grouped into a single segment. My hypothesis around this is that the features used in this dataset were not enough to clearly isolate the distinctive groups of customers (particularly within the larger segment). Ideally, I would include a variety of attributes like demographics and types of products purchased. These additional features might help distinguish the groups within the larger segments further.
 
 ## Sources used:
