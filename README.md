@@ -45,4 +45,4 @@ I then fed the scored PCA dataset into k-means and repeated the process from the
 Looking at the segmentation results, it's clear that a lot of customers are being grouped into a single segment. My hypothesis around this is that the features used in this dataset were not enough to clearly isolate the distinctive groups of customers (particularly within the larger segment). Ideally, I would include a variety of attributes like demographics and types of products purchased. These additional features might help distinguish the groups within the larger segments further.
 
 ## Sources used:
-A large portion of this analysis was inspired from https://towardsdatascience.com/segmentation-of-online-shop-customers-8c304a2d84b4 (particularly the first attempt at K-Means)
+A portion of this analysis was inspired from https://towardsdatascience.com/segmentation-of-online-shop-customers-8c304a2d84b4 (particularly the first attempt at K-Means)
