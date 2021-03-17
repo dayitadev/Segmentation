@@ -1,7 +1,7 @@
 # Segmentation of Customers with K-Means and PCA
 This analysis was done using the following dataset: https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop?select=2020-Jan.csv
 
-The pupose of this analysis is to understand customers' browsing behaviours on an e-commerce website, and attempt to segment them into groups using the K-Means package from Python's sklearn package.
+The pupose of this analysis is to understand customers' browsing behaviours on an e-commerce website, and attempt to segment them into groups using K-Means from Python's sklearn library.
 
 ## Exploratory Data Analysis
 First, I attempted to understand the data and the events. The dataset contains a series of events, with user id, the event type, the product associated with the event, and the price of the product. Summarizing the dataset showed that there are roughly 400k unique users (customers), and 970k sessions.
